@@ -115,6 +115,7 @@ public class First extends Activity {
 		View focusView = null;
 
 		// Check for a valid password.
+		// addded a line to chk the GIT
 		if (TextUtils.isEmpty(mPassword)) {
 			mPasswordView.setError(getString(R.string.error_field_required));
 			focusView = mPasswordView;
